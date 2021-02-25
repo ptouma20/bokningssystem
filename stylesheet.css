@@ -1,0 +1,1635 @@
+html
+{
+    font-family: "Times New Roman", Times, serif;
+    padding:auto;
+}
+
+header{
+    background-color: white;
+    
+   }
+
+footer{
+    background-color:grey;
+    color:white;
+    /* width: auto;
+    height:auto; */
+    box-sizing: border-box;  
+    position: absolute;
+    padding: auto;
+}
+/* .row::after
+{
+    content: "";
+    clear:both;
+    display: table;
+} */
+.col
+{
+    float:left;
+    /* width:25%; */
+    margin: 10px 50px;
+}
+.col a
+{
+    position:relative;
+    left:32%;
+    margin: 5px;
+}
+#h42
+{
+    text-align: center;
+}
+main
+{
+    
+} 
+body
+{
+    background-color:white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin:0px;
+    padding: auto;
+    margin-top: 5px; 
+}
+ul
+{
+    list-style-type: none;
+    overflow:hidden;
+    background-color: black;
+}
+
+li{
+    float: left;
+   
+}
+
+li a, .DropLink
+{
+   
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:17px;
+}
+#BB{
+    margin: 1px 35px; 
+   
+}
+#BB:hover
+{
+    opacity: 0.5;
+}
+
+
+li a.active{
+    background-color: red;
+}
+
+li .Search
+{
+    float:right;
+    position: absolute;
+    left:75%; 
+   
+}
+
+li a:hover, .dropdown-items:hover .DropLink
+{
+    background-color: red;
+}
+
+
+li.dropdown-items
+{
+    display: inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a
+{
+    color:white; 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover
+{
+    background-color: red;
+}
+
+.dropdown-items:hover .dropdown-content
+{
+    display:block;
+} 
+
+.InloggLabel
+{
+    position: absolute;
+    top:10px;
+    right:200px;
+}
+
+.Logo
+{
+    position:relative;
+    left:50px;
+}
+
+li input#sök{
+    padding:6px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+li .Search button{
+    font-size:17px;
+    padding:6px;
+    position:relative;
+    border:none;
+    cursor:pointer;
+    background:white;
+  
+}
+
+li .Search button:hover
+{
+    background:red;
+} 
+
+footer .nav a{
+    color:white;
+}
+
+.fa-facebook
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #3B5998;
+    color: white;
+   
+}
+.fa-facebook:hover
+{
+    opacity:0.7;
+}
+
+#TCM
+{
+    text-align:center;
+
+}
+.fa-twitter
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #55ACEE;
+    color: white;
+   
+}
+.fa-twitter:hover
+{
+    opacity:0.7;
+}
+.fa-linkedin
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #007bb5;
+    color: white;
+   
+}
+.fa-linkedin:hover
+{
+    opacity:0.7;
+}
+.fa-youtube
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #007bb5;
+    color: white;
+   
+}
+.fa-youtube:hover
+{
+    opacity:0.7;
+}
+.fa-instagram
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #125688;
+    color: white;
+   
+}
+.fa-instagram:hover
+{
+    opacity:0.7;
+}
+
+@media only screen and (max-width:600px)
+
+{html
+    {
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+    header{
+        background-color: white;
+        
+       }
+    
+    footer{
+        background-color:grey;
+        color:white;
+        /* width: auto;
+        height:auto; */
+        box-sizing: border-box;  
+        position: relative;
+        height:400px;
+    }
+    /* .row::after
+    {
+        content: "";
+        clear:both;
+        display: table;
+    } */
+    .col
+    {
+        float:left;
+        /* width:25%; */
+        margin: 10px 50px;
+    }
+    .col a
+    {
+        position:relative;
+        left:32%;
+        margin: 5px;
+    }
+    #h42
+    {
+        text-align: center;
+    }
+    main
+    {
+        
+    } 
+    body
+    {
+        background-color:white;
+        overflow-x: hidden;
+        overflow-y: auto;
+        margin:0px;
+        margin-top: 5px; 
+    }
+    ul
+    {
+        list-style-type: none;
+        overflow:hidden;
+        background-color: black;
+    }
+    
+    li{
+        float: left;
+       
+    }
+    
+    li a, .DropLink
+    {
+       
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size:17px;
+    }
+    #BB{
+        margin: 1px 35px; 
+       
+    }
+    #BB:hover
+    {
+        opacity: 0.5;
+    }
+    
+    
+    li a.active{
+        background-color: red;
+    }
+    
+    li .Search
+    {
+        float:right;
+        position: absolute;
+        left:75%; 
+       
+    }
+    
+    li a:hover, .dropdown-items:hover .DropLink
+    {
+        background-color: red;
+    }
+    
+    
+    li.dropdown-items
+    {
+        display: inline-block;
+    }
+    
+    .dropdown-content
+    {
+        display: none;
+        position: absolute;
+        background-color: black;
+        color:white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a
+    {
+        color:white; 
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .dropdown-content a:hover
+    {
+        background-color: red;
+    }
+    
+    .dropdown-items:hover .dropdown-content
+    {
+        display:block;
+    } 
+    
+    .InloggLabel
+    {
+        position: absolute;
+        top:10px;
+        right:200px;
+    }
+    
+    .Logo
+    {
+        position:relative;
+        left:50px;
+    }
+    
+    li input#sök{
+        padding:6px;
+        border: none;
+        margin-top: 8px;
+        font-size: 17px;
+    }
+    
+    li .Search button{
+        font-size:17px;
+        padding:6px;
+        position:relative;
+        border:none;
+        cursor:pointer;
+        background:white;
+      
+    }
+    
+    li .Search button:hover
+    {
+        background:red;
+    } 
+    
+    footer .nav a{
+        color:white;
+    }
+    
+    .fa-facebook
+    {
+        padding:15px;
+        font-size:15px;
+        width:15px;
+        text-align:center;
+        text-decoration: none;
+        border-radius:50%;
+        margin: 2px 2px;
+        background: #3B5998;
+        color: white;
+       
+    }
+    .fa-facebook:hover
+    {
+        opacity:0.7;
+    }
+    
+    #TCM
+    {
+        text-align:center;
+    
+    }
+    .fa-twitter
+    {
+        padding:15px;
+        font-size:15px;
+        width:15px;
+        text-align:center;
+        text-decoration: none;
+        border-radius:50%;
+        margin: 2px 2px;
+        background: #55ACEE;
+        color: white;
+       
+    }
+    .fa-twitter:hover
+    {
+        opacity:0.7;
+    }
+    .fa-linkedin
+    {
+        padding:15px;
+        font-size:15px;
+        width:15px;
+        text-align:center;
+        text-decoration: none;
+        border-radius:50%;
+        margin: 2px 2px;
+        background: #007bb5;
+        color: white;
+       
+    }
+    .fa-linkedin:hover
+    {
+        opacity:0.7;
+    }
+    .fa-youtube
+    {
+        padding:15px;
+        font-size:15px;
+        width:15px;
+        text-align:center;
+        text-decoration: none;
+        border-radius:50%;
+        margin: 2px 2px;
+        background: #007bb5;
+        color: white;
+       
+    }
+    .fa-youtube:hover
+    {
+        opacity:0.7;
+    }
+    .fa-instagram
+    {
+        padding:15px;
+        font-size:15px;
+        width:15px;
+        text-align:center;
+        text-decoration: none;
+        border-radius:50%;
+        margin: 2px 2px;
+        background: #125688;
+        color: white;
+       
+    }
+    .fa-instagram:hover
+    {
+        opacity:0.7;
+    }}
+
+    @media only screen and (min-width: 600px) {
+        html
+{
+    font-family: "Times New Roman", Times, serif;
+}
+
+header{
+    background-color: white;
+    
+   }
+
+footer{
+    background-color:grey;
+    color:white;
+    /* width: auto;
+    height:auto; */
+    box-sizing: border-box;  
+    position: relative;
+    height:400px;
+}
+/* .row::after
+{
+    content: "";
+    clear:both;
+    display: table;
+} */
+.col
+{
+    float:left;
+    /* width:25%; */
+    margin: 10px 50px;
+}
+.col a
+{
+    position:relative;
+    left:32%;
+    margin: 5px;
+}
+#h42
+{
+    text-align: center;
+}
+main
+{
+    
+} 
+body
+{
+    background-color:white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin:0px;
+    margin-top: 5px; 
+}
+ul
+{
+    list-style-type: none;
+    overflow:hidden;
+    background-color: black;
+}
+
+li{
+    float: left;
+   
+}
+
+li a, .DropLink
+{
+   
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:17px;
+}
+#BB{
+    margin: 1px 35px; 
+   
+}
+#BB:hover
+{
+    opacity: 0.5;
+}
+
+
+li a.active{
+    background-color: red;
+}
+
+li .Search
+{
+    float:right;
+    position: absolute;
+    left:75%; 
+   
+}
+
+li a:hover, .dropdown-items:hover .DropLink
+{
+    background-color: red;
+}
+
+
+li.dropdown-items
+{
+    display: inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a
+{
+    color:white; 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover
+{
+    background-color: red;
+}
+
+.dropdown-items:hover .dropdown-content
+{
+    display:block;
+} 
+
+.InloggLabel
+{
+    position: absolute;
+    top:10px;
+    right:200px;
+}
+
+.Logo
+{
+    position:relative;
+    left:50px;
+}
+
+li input#sök{
+    padding:6px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+li .Search button{
+    font-size:17px;
+    padding:6px;
+    position:relative;
+    border:none;
+    cursor:pointer;
+    background:white;
+  
+}
+
+li .Search button:hover
+{
+    background:red;
+} 
+
+footer .nav a{
+    color:white;
+}
+
+.fa-facebook
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #3B5998;
+    color: white;
+   
+}
+.fa-facebook:hover
+{
+    opacity:0.7;
+}
+
+#TCM
+{
+    text-align:center;
+
+}
+.fa-twitter
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #55ACEE;
+    color: white;
+   
+}
+.fa-twitter:hover
+{
+    opacity:0.7;
+}
+.fa-linkedin
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #007bb5;
+    color: white;
+   
+}
+.fa-linkedin:hover
+{
+    opacity:0.7;
+}
+.fa-youtube
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #007bb5;
+    color: white;
+   
+}
+.fa-youtube:hover
+{
+    opacity:0.7;
+}
+.fa-instagram
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #125688;
+    color: white;
+   
+}
+.fa-instagram:hover
+{
+    opacity:0.7;
+}
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+        html
+{
+    font-family: "Times New Roman", Times, serif;
+}
+
+header{
+    background-color: white;
+    
+   }
+
+footer{
+    background-color:grey;
+    color:white;
+    /* width: auto;
+    height:auto; */
+    box-sizing: border-box;  
+    position: relative;
+    height:400px;
+}
+/* .row::after
+{
+    content: "";
+    clear:both;
+    display: table;
+} */
+.col
+{
+    float:left;
+    /* width:25%; */
+    margin: 10px 50px;
+}
+.col a
+{
+    position:relative;
+    left:32%;
+    margin: 5px;
+}
+#h42
+{
+    text-align: center;
+}
+main
+{
+    
+} 
+body
+{
+    background-color:white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin:0px;
+    margin-top: 5px; 
+}
+ul
+{
+    list-style-type: none;
+    overflow:hidden;
+    background-color: black;
+}
+
+li{
+    float: left;
+   
+}
+
+li a, .DropLink
+{
+   
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:17px;
+}
+#BB{
+    margin: 1px 35px; 
+   
+}
+#BB:hover
+{
+    opacity: 0.5;
+}
+
+
+li a.active{
+    background-color: red;
+}
+
+li .Search
+{
+    float:right;
+    position: absolute;
+    left:75%; 
+   
+}
+
+li a:hover, .dropdown-items:hover .DropLink
+{
+    background-color: red;
+}
+
+
+li.dropdown-items
+{
+    display: inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a
+{
+    color:white; 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover
+{
+    background-color: red;
+}
+
+.dropdown-items:hover .dropdown-content
+{
+    display:block;
+} 
+
+.InloggLabel
+{
+    position: absolute;
+    top:10px;
+    right:200px;
+}
+
+.Logo
+{
+    position:relative;
+    left:50px;
+}
+
+li input#sök{
+    padding:6px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+li .Search button{
+    font-size:17px;
+    padding:6px;
+    position:relative;
+    border:none;
+    cursor:pointer;
+    background:white;
+  
+}
+
+li .Search button:hover
+{
+    background:red;
+} 
+
+footer .nav a{
+    color:white;
+}
+
+.fa-facebook
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #3B5998;
+    color: white;
+   
+}
+.fa-facebook:hover
+{
+    opacity:0.7;
+}
+
+#TCM
+{
+    text-align:center;
+
+}
+.fa-twitter
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #55ACEE;
+    color: white;
+   
+}
+.fa-twitter:hover
+{
+    opacity:0.7;
+}
+.fa-linkedin
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #007bb5;
+    color: white;
+   
+}
+.fa-linkedin:hover
+{
+    opacity:0.7;
+}
+.fa-youtube
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #007bb5;
+    color: white;
+   
+}
+.fa-youtube:hover
+{
+    opacity:0.7;
+}
+.fa-instagram
+{
+    padding:15px;
+    font-size:15px;
+    width:15px;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+    margin: 2px 2px;
+    background: #125688;
+    color: white;
+   
+}
+.fa-instagram:hover
+{
+    opacity:0.7;
+}
+    } 
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        html
+        {
+            font-family: "Times New Roman", Times, serif;
+        }
+        
+        header{
+            background-color: white;
+            
+           }
+        
+        footer{
+            background-color:grey;
+            color:white;
+            /* width: auto;
+            height:auto; */
+            box-sizing: border-box;  
+            position: relative;
+            height:400px;
+        }
+        /* .row::after
+        {
+            content: "";
+            clear:both;
+            display: table;
+        } */
+        .col
+        {
+            float:left;
+            /* width:25%; */
+            margin: 10px 50px;
+        }
+        .col a
+        {
+            position:relative;
+            left:32%;
+            margin: 5px;
+        }
+        #h42
+        {
+            text-align: center;
+        }
+        main
+        {
+            
+        } 
+        body
+        {
+            background-color:white;
+            overflow-x: hidden;
+            overflow-y: auto;
+            margin:0px;
+            margin-top: 5px; 
+        }
+        ul
+        {
+            list-style-type: none;
+            overflow:hidden;
+            background-color: black;
+        }
+        
+        li{
+            float: left;
+           
+        }
+        
+        li a, .DropLink
+        {
+           
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size:17px;
+        }
+        #BB{
+            margin: 1px 35px; 
+           
+        }
+        #BB:hover
+        {
+            opacity: 0.5;
+        }
+        
+        
+        li a.active{
+            background-color: red;
+        }
+        
+        li .Search
+        {
+            float:right;
+            position: absolute;
+            left:75%; 
+           
+        }
+        
+        li a:hover, .dropdown-items:hover .DropLink
+        {
+            background-color: red;
+        }
+        
+        
+        li.dropdown-items
+        {
+            display: inline-block;
+        }
+        
+        .dropdown-content
+        {
+            display: none;
+            position: absolute;
+            background-color: black;
+            color:white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a
+        {
+            color:white; 
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        .dropdown-content a:hover
+        {
+            background-color: red;
+        }
+        
+        .dropdown-items:hover .dropdown-content
+        {
+            display:block;
+        } 
+        
+        .InloggLabel
+        {
+            position: absolute;
+            top:10px;
+            right:200px;
+        }
+        
+        .Logo
+        {
+            position:relative;
+            left:50px;
+        }
+        
+        li input#sök{
+            padding:6px;
+            border: none;
+            margin-top: 8px;
+            font-size: 17px;
+        }
+        
+        li .Search button{
+            font-size:17px;
+            padding:6px;
+            position:relative;
+            border:none;
+            cursor:pointer;
+            background:white;
+          
+        }
+        
+        li .Search button:hover
+        {
+            background:red;
+        } 
+        
+        footer .nav a{
+            color:white;
+        }
+        
+        .fa-facebook
+        {
+            padding:15px;
+            font-size:15px;
+            width:15px;
+            text-align:center;
+            text-decoration: none;
+            border-radius:50%;
+            margin: 2px 2px;
+            background: #3B5998;
+            color: white;
+           
+        }
+        .fa-facebook:hover
+        {
+            opacity:0.7;
+        }
+        
+        #TCM
+        {
+            text-align:center;
+        
+        }
+        .fa-twitter
+        {
+            padding:15px;
+            font-size:15px;
+            width:15px;
+            text-align:center;
+            text-decoration: none;
+            border-radius:50%;
+            margin: 2px 2px;
+            background: #55ACEE;
+            color: white;
+           
+        }
+        .fa-twitter:hover
+        {
+            opacity:0.7;
+        }
+        .fa-linkedin
+        {
+            padding:15px;
+            font-size:15px;
+            width:15px;
+            text-align:center;
+            text-decoration: none;
+            border-radius:50%;
+            margin: 2px 2px;
+            background: #007bb5;
+            color: white;
+           
+        }
+        .fa-linkedin:hover
+        {
+            opacity:0.7;
+        }
+        .fa-youtube
+        {
+            padding:15px;
+            font-size:15px;
+            width:15px;
+            text-align:center;
+            text-decoration: none;
+            border-radius:50%;
+            margin: 2px 2px;
+            background: #007bb5;
+            color: white;
+           
+        }
+        .fa-youtube:hover
+        {
+            opacity:0.7;
+        }
+        .fa-instagram
+        {
+            padding:15px;
+            font-size:15px;
+            width:15px;
+            text-align:center;
+            text-decoration: none;
+            border-radius:50%;
+            margin: 2px 2px;
+            background: #125688;
+            color: white;
+           
+        }
+        .fa-instagram:hover
+        {
+            opacity:0.7;
+        } 
+    } 
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        html
+        {
+            font-family: "Times New Roman", Times, serif;
+        }
+        
+        header{
+            background-color: white;
+            
+           }
+        
+        footer{
+            background-color:grey;
+            color:white;
+            /* width: auto;
+            height:auto; */
+            box-sizing: border-box;  
+            position: relative;
+            height:400px;
+        }
+        /* .row::after
+        {
+            content: "";
+            clear:both;
+            display: table;
+        } */
+        .col
+        {
+            float:left;
+            /* width:25%; */
+            margin: 10px 50px;
+        }
+        .col a
+        {
+            position:relative;
+            left:32%;
+            margin: 5px;
+        }
+        #h42
+        {
+            text-align: center;
+        }
+        main
+        {
+            
+        } 
+        body
+        {
+            background-color:white;
+            overflow-x: hidden;
+            overflow-y: auto;
+            margin:0px;
+            margin-top: 5px; 
+        }
+        ul
+        {
+            list-style-type: none;
+            overflow:hidden;
+            background-color: black;
+        }
+        
+        li{
+            float: left;
+           
+        }
+        
+        li a, .DropLink
+        {
+           
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size:17px;
+        }
+        #BB{
+            margin: 1px 35px; 
+           
+        }
+        #BB:hover
+        {
+            opacity: 0.5;
+        }
+        
+        
+        li a.active{
+            background-color: red;
+        }
+        
+        li .Search
+        {
+            float:right;
+            position: absolute;
+            left:75%; 
+           
+        }
+        
+        li a:hover, .dropdown-items:hover .DropLink
+        {
+            background-color: red;
+        }
+        
+        
+        li.dropdown-items
+        {
+            display: inline-block;
+        }
+        
+        .dropdown-content
+        {
+            display: none;
+            position: absolute;
+            background-color: black;
+            color:white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a
+        {
+            color:white; 
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        .dropdown-content a:hover
+        {
+            background-color: red;
+        }
+        
+        .dropdown-items:hover .dropdown-content
+        {
+            display:block;
+        } 
+        
+        .InloggLabel
+        {
+            position: absolute;
+            top:10px;
+            right:200px;
+        }
+        
+        .Logo
+        {
+            position:relative;
+            left:50px;
+        }
+        
+        li input#sök{
+            padding:6px;
+            border: none;
+            margin-top: 8px;
+            font-size: 17px;
+        }
+        
+        li .Search button{
+            font-size:17px;
+            padding:6px;
+            position:relative;
+            border:none;
+            cursor:pointer;
+            background:white;
+          
+        }
+        
+        li .Search button:hover
+        {
+            background:red;
+        } 
+        
+        footer .nav a{
+            color:white;
+        }
+        
+        .fa-facebook
+        {
+            padding:15px;
+            font-size:15px;
+            width:15px;
+            text-align:center;
+            text-decoration: none;
+            border-radius:50%;
+            margin: 2px 2px;
+            background: #3B5998;
+            color: white;
+           
+        }
+        .fa-facebook:hover
+        {
+            opacity:0.7;
+        }
+        
+        #TCM
+        {
+            text-align:center;
+        
+        }
+        .fa-twitter
+        {
+            padding:15px;
+            font-size:15px;
+            width:15px;
+            text-align:center;
+            text-decoration: none;
+            border-radius:50%;
+            margin: 2px 2px;
+            background: #55ACEE;
+            color: white;
+           
+        }
+        .fa-twitter:hover
+        {
+            opacity:0.7;
+        }
+        .fa-linkedin
+        {
+            padding:15px;
+            font-size:15px;
+            width:15px;
+            text-align:center;
+            text-decoration: none;
+            border-radius:50%;
+            margin: 2px 2px;
+            background: #007bb5;
+            color: white;
+           
+        }
+        .fa-linkedin:hover
+        {
+            opacity:0.7;
+        }
+        .fa-youtube
+        {
+            padding:15px;
+            font-size:15px;
+            width:15px;
+            text-align:center;
+            text-decoration: none;
+            border-radius:50%;
+            margin: 2px 2px;
+            background: #007bb5;
+            color: white;
+           
+        }
+        .fa-youtube:hover
+        {
+            opacity:0.7;
+        }
+        .fa-instagram
+        {
+            padding:15px;
+            font-size:15px;
+            width:15px;
+            text-align:center;
+            text-decoration: none;
+            border-radius:50%;
+            margin: 2px 2px;
+            background: #125688;
+            color: white;
+           
+        }
+        .fa-instagram:hover
+        {
+            opacity:0.7;
+        } 
+    }
+
+
+
+
+
+
+
